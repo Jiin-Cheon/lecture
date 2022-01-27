@@ -1,0 +1,30 @@
+기본
+tag 선택자 ( tag {} )
+class 선택자 (.class {} )
+id 선택자   (#id {} )
+atttr 선택자 ( input[type=text] {} )
+
+결합자
+자손 결합자 (.class div {} )  /* 앞 선택자 뒤에 스페이스를 둠으로써 자손 요소들을 선택 */
+자식 결합자 (.class > div {} )  /* 빈 공백이 아닌 > 을 넣어주면 자식(1촌 자손)만 선택 */
+인접 형제 결합자 (.class + div {} )
+전체 선택자 ( section * {} )
+
+가상 클래스
+부정 가상 클래스 (.class:not(.class) { })
+	          (.class:not(tag) { })
+순서 관련 가상 클래스
+	tag:first-child { }
+	tag:last-child {  }
+	tag:nth-child(3) { }
+	tag:nth-child(even) { }
+	tag:nth-child(3n+1) { }
+마우스오버 가상 클래스
+	.class:hover { }
+
+
+
+우선순위
+인라인 스타일 > id 선택자 > class 선택자 > 태그 선택자
+구체적일수록 높은 순위
+같은 우선순위라면 다음에(더 아랫줄) 오는 것이 덮어씀

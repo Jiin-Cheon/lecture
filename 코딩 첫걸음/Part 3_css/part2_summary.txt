@@ -1,0 +1,39 @@
+font-family: 글꼴
+font-size: 글자크기
+font-weight: 글자 굵기
+font-style: 글자 스타일
+color: 글자 색
+text-decoration: 글자에 선 긋기
+letter-spacing: 자간 조정
+text-align: 텍스트 정렬
+line-height: 행간
+list-style: ul 목록의 불릿 없애기
+opacity: 불투명도
+
+margin: 바깥쪽 여백
+padding: 안쪽 여백
+border: 테두리 선
+border-radius: 둥근 모서리
+background: 배경 (image, size, position, repeat)
+box-shadow: 그림자
+
+CSS 레이아웃
+POSITION
+static: 기본값
+relative: 상대적 배치 (static과 같으나 top, bottom, left, right 속성 지정 가능 (absolute를 포함하는 부모 요소로 주로 사용됨)
+absolute: 절대적 배치 (static이 아닌 조상 중 가장 가까운 조상과 상대적 위치에 배치)
+fixed: 고정 (부모요소가 아닌, viewport 기준으로 배치), (스크롤에 영향을 받지 않음)
+
+DISPLAY
+inline
+block
+inline-block
+
+display: none; (요소를 화면에 두지 않으므로, 자리를 차지하지 않음)
+visibility: hidden, opacity:0 (요소를 화면에 두므로 자리를 차지함)
+
+
+css reset
+브라우저마다 기본 설정이 다르기때문에, 그런 것들을 모두 초기화하고 시작하는 레이아웃
+(모든 브라우저에서 똑같이 만들기)
+(https://cssdeck.com/blog/scripts/eric-meyer-reset-css/)
