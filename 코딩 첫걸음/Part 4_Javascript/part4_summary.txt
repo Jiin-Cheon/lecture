@@ -51,3 +51,5 @@ for 문 (형식: (초기화; 조건; 작업 후 처리)
 for (var i = 0; i < 6; i++) {
 console.log(i);
 }
+
+break 구문
